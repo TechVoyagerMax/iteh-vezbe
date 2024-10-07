@@ -12,6 +12,7 @@
     <div class="login-form">
         <div class="main-div card shadow-lg p-4">
             <h2 class="text-center">Prijava</h2>
+            <p>Unesite Vase podatke:</p>
             <form method="POST" action="#">
                 <div class="form-group">
                     <label for="username">Korisničko ime</label>

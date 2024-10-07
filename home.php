@@ -17,8 +17,8 @@
         </div>
         <!-- Header section -->
         <div class="jumbotron text-center">
-            <h1>Prijava Kolokvijuma</h1>
-            <p>Fakultet organizacionih nauka</p>
+            <h1>Vasa prijava kolokvijuma</h1>
+            <h4>Fakultet organizacionih nauka</h4>
         </div>
 
 
@@ -35,10 +35,10 @@
                     <table id="myTable" class="table table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Predmet</th>
-                                <th>Katedra</th>
-                                <th>Sala</th>
-                                <th>Datum</th>
+                                <th>Predmeti za biranje</th>
+                                <th>Naziv katedre</th>
+                                <th>Broj sale</th>
+                                <th>Datum odrzavanja</th>
                                 <th>Selektuj</th>
                             </tr>
                         </thead>
@@ -88,19 +88,19 @@
                     <div class="modal-body">
                         <form action="#" method="post" id="dodajForm">
                             <div class="form-group">
-                                <label>Predmet</label>
+                                <label>Izabran predmet</label>
                                 <input type="text" name="predmet" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Katedra</label>
+                                <label>Naziv katedre</label>
                                 <input type="text" name="katedra" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Sala</label>
+                                <label>Broj sale</label>
                                 <input type="text" name="sala" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Datum</label>
+                                <label>Datum odrzavanja</label>
                                 <input type="date" name="datum" class="form-control" required>
                             </div>
                             <button type="submit" name="submit" value="zakazi" class="btn btn-success btn-block">Zakazi</button>
@@ -126,15 +126,15 @@
                                 <input id="predmet" type="text" name="predmet" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Katedra</label>
+                                <label>Naziv katedre</label>
                                 <input id="katedra" type="text" name="katedra" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Sala</label>
+                                <label>Broj sale</label>
                                 <input id="sala" type="text" name="sala" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Datum</label>
+                                <label>Datum odrzavanja</label>
                                 <input id="datum" type="date" name="datum" class="form-control" required>
                             </div>
                             <button type="submit" name="submit" value="izmeni" id="btnIzmeniModal" class="btn btn-success btn-block">Izmeni</button>
